@@ -1,8 +1,4 @@
-# React + Vite
+# React login app to consume API to get JWT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Pequeña aplicación de un Login en React para consumir un API que requiere JWT para las peticiones.
+Se hace el llamado POST con los datos de usuario y contraseña y se recibe el token generado en el servidor que corresponde al JWT
